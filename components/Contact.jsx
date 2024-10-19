@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-6">Contacto</h2>
+        <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">Contacto</h2>
         
         <div className="flex flex-col lg:flex-row justify-between">
           {/* Información de contacto y horario (izquierda) */}
