@@ -24,40 +24,36 @@ const About2 = () => {
           </div>
           <div className="lg:w-3/5 mb-6 lg:mb-0 mt-4"> {/* Ajustado a 3/5 y se agregó margen superior */}
             <div className="grid grid-cols-2 gap-4">
-              <div className="relative h-48">
+              <div className="relative h-80">
                 <Image
-                  src="/images/photo1.jpg" // Ruta de la primera imagen
-                  alt="Descripción de la imagen 1"
+                  src="/images/salon1.png" // Ruta de la primera imagen
+                  alt="Salon 1"
                   layout="fill" // Permite que la imagen ocupe todo el contenedor
-                  objectFit="cover" // Mantiene la relación de aspecto
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg object-cover"
                 />
               </div>
-              <div className="relative h-48">
+              <div className="relative h-80">
                 <Image
-                  src="/images/photo2.jpg" // Ruta de la segunda imagen
-                  alt="Descripción de la imagen 2"
+                  src="/images/salon2.png" // Ruta de la segunda imagen
+                  alt="Salon 2"
                   layout="fill"
-                  objectFit="cover"
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg object-cover"
                 />
               </div>
-              <div className="relative h-48">
+              <div className="relative h-80">
                 <Image
-                  src="/images/photo3.jpg" // Ruta de la tercera imagen
-                  alt="Descripción de la imagen 3"
+                  src="/images/salon3.png" // Ruta de la tercera imagen
+                  alt="Salon 3"
                   layout="fill"
-                  objectFit="cover"
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg object-cover"
                 />
               </div>
-              <div className="relative h-48">
+              <div className="relative h-80">
                 <Image
-                  src="/images/photo4.jpg" // Ruta de la cuarta imagen
-                  alt="Descripción de la imagen 4"
+                  src="/images/salon4.png" // Ruta de la cuarta imagen
+                  alt="Salon 4"
                   layout="fill"
-                  objectFit="cover"
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg object-cover"
                 />
               </div>
             </div>
