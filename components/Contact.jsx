@@ -36,8 +36,7 @@ const Contact = () => {
           {/* Mapa (derecha) */}
           <div className="lg:w-2/3">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345091465!2d144.95565131532366!3d-37.81720997975145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f1c6f6f%3A0x5045675218ceed1!2sZafiro%20Hair%20and%20Beauty!5e0!3m2!1sen!2sus!4v1616181900244!5m2!1sen!2sus"
-              className="w-full h-96 rounded-md shadow-md"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4380.295649023142!2d-6.087286704449026!3d36.278497630850396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c3947e3ba48d3%3A0x4c8ffb3c2d636bb4!2sZafiro%20Hair%20and%20Beauty!5e0!3m2!1ses!2ses!4v1729360538032!5m2!1ses!2ses"              className="w-full h-96 rounded-md shadow-md"
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
