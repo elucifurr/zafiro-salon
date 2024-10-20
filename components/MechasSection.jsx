@@ -56,7 +56,7 @@ const MechasSection = () => {
   ];
 
   return (
-    <section className="py-12 bg-white">
+    <section id="mechas" className="py-12 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">Mechas</h2>
         <div className="flex flex-wrap justify-center gap-6">

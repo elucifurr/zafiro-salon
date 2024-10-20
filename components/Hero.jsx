@@ -14,13 +14,13 @@ const Hero = () => {
           Salón especializado en Balayages y rubios
         </p>
         <div className="flex justify-center items-center space-x-6 mt-4">
-          <a href="#" className="text-gray-400 hover:text-pink-300 text-2xl">
+          <a href="https://www.instagram.com/zafirohairandbeauty" className="text-gray-400 hover:text-pink-300 text-2xl">
             <FaInstagram />
           </a>
-          <a href="#" className="text-gray-400 hover:text-blue-400 text-2xl">
+          <a href="https://www.facebook.com/profile.php?id=61566585353275" className="text-gray-400 hover:text-blue-400 text-2xl">
             <FaFacebookF />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-700 text-2xl">
+          <a href="https://www.tiktok.com/@zafirohairandbeauty" className="text-gray-400 hover:text-gray-700 text-2xl">
             <FaTiktok />
           </a>
         </div>
