@@ -27,6 +27,7 @@ const Navbar = () => {
         <div className="hidden lg:flex space-x-6">
           {/* Enlaces de navegación alineados a la derecha */}
           <Link href="#about" className="text-gray-600 hover:text-blue-500 py-2">Sobre Nosotros</Link>
+          <Link href="#mechas" className="text-gray-600 hover:text-blue-500 py-2">Mechas</Link>
           <Link href="#services" className="text-gray-600 hover:text-blue-500 py-2">Servicios</Link>
           <Link href="#contact" className="text-gray-600 hover:text-blue-500 py-2">Contacto</Link>
           {/* Botón de reserva */}
@@ -55,6 +56,7 @@ const Navbar = () => {
           <div className="flex flex-col space-y-2 px-4 py-2">
             <div className="flex flex-col items-end space-y-2 w-full">
               <Link href="#about" className="text-gray-600 hover:text-blue-500 text-right">Sobre Nosotros</Link>
+              <Link href="#mechas" className="text-gray-600 hover:text-blue-500 text-right">Mechas</Link>
               <Link href="#services" className="text-gray-600 hover:text-blue-500 text-right">Servicios</Link>
               <Link href="#contact" className="text-gray-600 hover:text-blue-500 text-right">Contacto</Link>
               <Link href="https://www.fresha.com/book-now/zafiro-kuufio2y/all-offer?lid=1393036&pId=1322901&hl=es-ES&gei=ZtcTZ-uPELCIxc8P48SN8QM&rwg_token=AJKvS9Vgu-amWamMTDSfKTSLdt9hzjsEUzZlxStzYGoXaOye0kBtTlLerzWEkBxFoF9CH6BAD6QLW0FjssDeClgqLZA9_6sI5A%3D%3D"
