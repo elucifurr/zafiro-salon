@@ -1,14 +1,21 @@
-'use client'; // Asegura que todo este componente se renderice del lado del cliente
+'use client'; // Ensure this component renders on the client side
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const About2 = () => {
+  const salon = [
+    { src: '/images/salon1.png', alt: 'Recepción' },
+    { src: '/images/salon2.png', alt: 'Spa' },
+    { src: '/images/salon3.png', alt: 'Tocador' },
+    { src: '/images/salon4.png', alt: 'Zona de espera' }
+  ];
+
   return (
     <section id="about" className="py-12 bg-gray-50 relative">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between">
-          {/* Animación para el texto */}
+          {/* Animated text */}
           <motion.div 
             className="lg:w-2/6 mb-6 lg:mb-0 pr-10"
             initial={{ x: -200, opacity: 0 }}
@@ -33,7 +40,7 @@ const About2 = () => {
             </p>
           </motion.div>
 
-          {/* Animación para las imágenes */}
+          {/* Animated images */}
           <motion.div 
             className="lg:w-3/5 mb-6 lg:mb-0 mt-4"
             initial={{ x: 200, opacity: 0 }}
@@ -41,40 +48,17 @@ const About2 = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <div className="grid grid-cols-2 gap-4">
-              {/* Imagen 1 */}
-              <div className="relative w-full sm:h-48 lg:h-96">
-              <Image
-                  src="/images/salon1.png"
-                  alt="Salon 1"
-                  fill
-                  className="rounded-lg shadow-lg object-cover w-full h-full" // Asegura que ocupe todo el contenedor
-                />
-              </div>
-              <div className="relative w-full lg:h-96 sm:h-48">
-                <Image
-                  src="/images/salon2.png"
-                  alt="Salon 2"
-                  fill
-                  className="rounded-lg shadow-lg object-cover w-full h-full"
-                />
-              </div>
-              <div className="relative w-full lg:h-96 sm:h-48">
-                <Image
-                  src="/images/salon3.png"
-                  alt="Salon 3"
-                  fill
-                  className="rounded-lg shadow-lg object-cover w-full h-full"
-                />
-              </div>
-              <div className="relative w-full lg:h-96 sm:h-48">
-                <Image
-                  src="/images/salon4.png"
-                  alt="Salon 4"
-                  fill
-                  className="rounded-lg shadow-lg object-cover w-full h-full"
-                />
-              </div>
+            <div className="flex flex-wrap justify-center gap-6">
+              {salon.map((image, index) => (
+                <div key={index} className="flex-shrink-0 w-96 relative h-96 overflow-hidden">
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    fill
+                    className="object-cover rounded-lg shadow-lg"
+                  />
+                </div>
+              ))}
             </div>
           </motion.div>
         </div>
