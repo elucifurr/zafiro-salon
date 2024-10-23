@@ -4,56 +4,57 @@ import MechaCard from './MechaCard';
 const MechasSection = () => {
   const mechas = [
     {
-      imageSrc: '/images/balayage.png',
+      imageSrc: '/images/balayage2.png',
       title: 'Balayage',
-      description: 'Mechas suaves que imitan el efecto del sol, ideales para un look natural y luminoso.'
+      description: 'Mechas que crean un efecto natural y luminoso, aportando dimensión y movimiento a tu cabello. Perfectas para un look radiante y de bajo mantenimiento.'
     },
     {
-      imageSrc: '/images/balayage2.png',
+      imageSrc: '/images/babylights2.png',
       title: 'Babylights',
-      description: 'Mechas finas que aportan luz y frescura al rostro, perfectas para un toque sutil.'
+      description: 'Mechas delicadas que iluminan tu rostro con un toque sutil, ideales para un acabado fresco y juvenil.'
     },
     {
       imageSrc: '/images/mechas-fantasia.png',
-      title: 'Ombré',
-      description: 'Un degradado elegante que va de oscuro a claro, creando un contraste impresionante.'
+      title: 'Balayage Fantasía',
+      description: ' Dale vida a tu look con mechas vibrantes y creativas que combinan tonos intensos en un elegante degradado. Expresa tu personalidad única, añadiendo originalidad a tu cabello.'
     },
     {
-      imageSrc: '/images/mechas-fantasia.png',
-      title: 'Ombré',
-      description: 'Un degradado elegante que va de oscuro a claro, creando un contraste impresionante.'
+      imageSrc: '/images/morena-iluminada.png',
+      title: 'Balayage Morena Iluminada',
+      description: 'Mechas que realzan el cabello oscuro con reflejos cálidos, creando un efecto luminoso y sofisticado.'
     },
     {
-      imageSrc: '/images/balayage.png',
-      title: 'Babylights',
-      description: 'Mechas finas que aportan luz y frescura al rostro, perfectas para un toque sutil.'
+      imageSrc: '/images/balayage-contour1.png',
+      title: 'Balayage Contour',
+      description: 'Mechas estratégicamente colocadas que definen y enmarcan tu rostro, añadiendo luz y dimensión con un acabado natural.'
     },
     {
-      imageSrc: '/images/balayage2.png',
-      title: 'Ombré',
-      description: 'Un degradado elegante que va de oscuro a claro, creando un contraste impresionante.'
+      imageSrc: '/images/money-piece2.png',
+      title: 'Mechas Money Piece',
+      description: 'Un toque atrevido en la parte frontal que ilumina tu rostro, creando un contraste vibrante que destaca tus rasgos.'
     },
     {
-      imageSrc: '/images/balayage2.png',
-      title: 'Ombré',
-      description: 'Un degradado elegante que va de oscuro a claro, creando un contraste impresionante.'
+      imageSrc: '/images/puntos-luz-balayage.png',
+      title: 'Color + Balayage Puntos de Luz',
+      description: 'Un estilo innovador que mezcla color y balayage, aportando profundidad y luminosidad en un acabado personalizado.'
     },
     {
-      imageSrc: '/images/mechas-fantasia.png',
-      title: 'Babylights',
-      description: 'Mechas finas que aportan luz y frescura al rostro, perfectas para un toque sutil.'
+      imageSrc: '/images/puntos-luz2.png',
+      title: 'Color + Mechas Puntos de Luz',
+      description: 'Mechas que iluminan con sutileza, perfectas para dar un toque fresco y renovado a tu look.'
     },
     {
-      imageSrc: '/images/balayage.png',
-      title: 'Ombré',
-      description: 'Un degradado elegante que va de oscuro a claro, creando un contraste impresionante.'
+      imageSrc: '/images/underlights-red.png',
+      title: 'Mechas Underlights',
+      description: 'Un juego de colores atrevido en la parte inferior, creando un contraste sorprendente y moderno que destaca tu estilo.'
     },
     {
-      imageSrc: '/images/balayage.png',
-      title: 'Ombré',
-      description: 'Un degradado elegante que va de oscuro a claro, creando un contraste impresionante.'
+      imageSrc: '/images/chunky-orange.png',
+      title: 'Mechas Chunky',
+      description: 'Mechas gruesas y atrevidas que aportan un toque de color intenso, perfectas para quienes buscan un look llamativo y original.'
     },
   ];
+  
 
   return (
     <section id="mechas" className="py-12 bg-white">

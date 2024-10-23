@@ -32,7 +32,7 @@ const Navbar = () => {
           <Link href="#contact" className="text-gray-600 hover:text-blue-500 py-2">Contacto</Link>
           {/* Botón de reserva */}
           <Link href="https://www.fresha.com/book-now/zafiro-kuufio2y/all-offer?lid=1393036&pId=1322901&hl=es-ES&gei=ZtcTZ-uPELCIxc8P48SN8QM&rwg_token=AJKvS9Vgu-amWamMTDSfKTSLdt9hzjsEUzZlxStzYGoXaOye0kBtTlLerzWEkBxFoF9CH6BAD6QLW0FjssDeClgqLZA9_6sI5A%3D%3D"
-            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500 transition flex items-center justify-center">
+            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition flex items-center justify-center">
             Reserva tu Cita
           </Link>
         </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
               <Link href="#services" className="text-gray-600 hover:text-blue-500 text-right">Servicios</Link>
               <Link href="#contact" className="text-gray-600 hover:text-blue-500 text-right">Contacto</Link>
               <Link href="https://www.fresha.com/book-now/zafiro-kuufio2y/all-offer?lid=1393036&pId=1322901&hl=es-ES&gei=ZtcTZ-uPELCIxc8P48SN8QM&rwg_token=AJKvS9Vgu-amWamMTDSfKTSLdt9hzjsEUzZlxStzYGoXaOye0kBtTlLerzWEkBxFoF9CH6BAD6QLW0FjssDeClgqLZA9_6sI5A%3D%3D"
-                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500 transition flex items-center justify-center self-end">
+                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition flex items-center justify-center self-end">
                 Reserva tu Cita
               </Link>
             </div>

@@ -11,7 +11,7 @@ const Hero = () => {
           Zafiro Hair and Beauty
         </h1>
         <p className="mt-4 text-xl text-gray-600">
-          Salón especializado en Balayages y rubios
+          Salón especializado en Mechas
         </p>
         <div className="flex justify-center items-center space-x-6 mt-4">
           <a href="https://www.instagram.com/zafirohairandbeauty" className="text-gray-400 hover:text-pink-300 text-2xl">
@@ -25,7 +25,7 @@ const Hero = () => {
           </a>
         </div>
         <Link href="https://www.fresha.com/book-now/zafiro-kuufio2y/all-offer?lid=1393036&pId=1322901&hl=es-ES&gei=ZtcTZ-uPELCIxc8P48SN8QM&rwg_token=AJKvS9Vgu-amWamMTDSfKTSLdt9hzjsEUzZlxStzYGoXaOye0kBtTlLerzWEkBxFoF9CH6BAD6QLW0FjssDeClgqLZA9_6sI5A%3D%3D" 
-        className="mt-6 inline-block bg-blue-600 text-white px-8 py-3 rounded-md">
+        className="mt-6 inline-block bg-blue-600 text-white hover:bg-blue-700 px-8 py-3 rounded-md">
           Reserva tu Cita
         </Link>
       </div>

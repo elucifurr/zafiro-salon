@@ -39,17 +39,21 @@ const About = () => {
           <div className="mb-6 lg:mb-0">
             <h2 className="text-4xl font-bold text-center lg:text-left text-gray-800 mb-4">Sobre mí</h2>
             <p className="text-lg text-gray-700 mb-4">
-              En Zafiro Hair and Beauty, nuestra pasión es resaltar la belleza de cada cliente.
-              Con un equipo de estilistas expertos, ofrecemos una amplia gama de servicios,
-              incluyendo mechas balayage, tratamientos de color, y cortes de cabello personalizados.
+              Soy Carmen Guerrero, fundadora de Zafiro Hair and Beauty, y la pasión por el arte del cabello ha sido siempre mi motor. 
+              He tenido la suerte de formarme y trabajar con algunas de las técnicas más innovadoras en Madrid,
+              un centro de tendencias donde perfeccioné mi enfoque en mechas y estilos personalizados. 
+              Mi experiencia en la capital me permitió no solo mejorar mis habilidades, 
+              sino también desarrollar una sensibilidad única hacia las necesidades individuales de cada cliente.
             </p>
             <p className="text-lg text-gray-700 mb-4">
-              Nuestro compromiso es proporcionar una experiencia única y relajante,
-              donde cada visita se convierte en un momento de autocuidado y renovación.
+              Lo que más me apasiona son las mechas, especialmente las técnicas personalizadas que resaltan la belleza natural del cabello.
+              Desde mechas balayage hasta estilos más creativos, mi objetivo es que cada cliente salga con un look que realmente exprese su personalidad y estilo único. 
+              Cada detalle en el proceso es importante para mí: desde la elección de los tonos hasta la aplicación precisa del color, 
+              siempre con el compromiso de lograr resultados que realcen la belleza natural de cada persona.
             </p>
             <p className="text-lg text-gray-700">
-              Ven y descubre cómo podemos ayudarte a realzar tu belleza natural.
-              ¡Te esperamos en nuestro salón!
+              En Zafiro, no solo busco transformar el cabello, sino crear una experiencia memorable, 
+              donde cada visita sea un reflejo de mi dedicación y amor por el mundo de la peluquería.
             </p>
           </div>
         </motion.div>

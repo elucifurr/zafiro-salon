@@ -12,8 +12,8 @@ const CustomService = ({ title, description, image }) => {
           className="rounded-lg object-cover" // Mantiene el redondeo en las esquinas
         />
       </div>
-      <h3 className="text-xl font-semibold text-gray-600">{title}</h3>
-      <p className="text-gray-600">{description}</p>
+      <h3 className="text-xl font-semibold text-gray-600 text-center">{title}</h3>
+      <p className="text-gray-600 text-center">{description}</p>
     </div>
   );
 };

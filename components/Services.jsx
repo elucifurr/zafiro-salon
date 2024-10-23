@@ -3,36 +3,36 @@ import CustomService from './CustomService';
 
 const servicesData = [
   {
-    title: "Mechas Balayage",
-    description: "Transforma tu look con nuestras mechas balayage personalizadas.",
-    image: "/images/balayage2.png", // Ruta de la imagen
-  },
-  {
-    title: "Mechas Fantasía",
-    description: "Cortes modernos y estilizados para todos los gustos.",
-    image: "/images/mechas-fantasia.png", // Ruta de la imagen
-  },
-  {
-    title: "Tratamientos Capilares",
-    description: "Dale vida a tu cabello con nuestros tratamientos de color.",
-    image: "/images/tratamiento.png", // Ruta de la imagen
+    title: "Alisados",
+    description: "Consigue un cabello liso y sedoso con nuestros alisados a base de Ácido Hialurónico, perfectos para un look elegante y sin frizz.",
+    image: "/images/alisado.png",
   },
   {
     title: "Barros Botánicos",
-    description: "Un estilo único para cada ocasión.",
-    image: "/images/barros.png", // Ruta de la imagen
+    description: "Da color a tu cabello con nuestros barros botánicos, diseñados para aportar brillo y suavidad mientras cuidan tu salud capilar.",
+    image: "/images/barros.png",
+  },
+  {
+    title: "Tratamiento Perla Reparadora - Nutritiva",
+    description: "Devuelve la vitalidad a tu cabello con nuestro tratamiento más completo, que nutre o repara tu cabello",
+    image: "/images/perla.png",
+  },
+  {
+    title: "Tratamiento Spa Cuero Cabelludo",
+    description: "Disfruta de una experiencia relajante y revitalizante con nuestro tratamiento spa, diseñado para purificar y tratar tu cuero cabelludo.",
+    image: "/images/tratamiento-spa.png",
   },
   {
     title: "Peinados Especiales",
-    description: "Peinados para eventos y ocasiones especiales.",
-    image: "/images/peinado.png", // Ruta de la imagen
+    description: "Destaca en cualquier evento con nuestros peinados especiales, diseñados para realzar tu belleza y personalidad en ocasiones únicas.",
+    image: "/images/peinado.png",
   },
   {
     title: "Maquillaje",
-    description: "Tratamientos de hidratación y nutrición para el cabello.",
-    image: "/images/maquillaje.png", // Ruta de la imagen
+    description: "Realza tu belleza con nuestro servicio de maquillaje, que combina técnicas profesionales y productos de alta calidad para un acabado impecable.",
+    image: "/images/maquillaje.png",
   },
-  // Añade más servicios según sea necesario
+  
 ];
 
 const Services = () => {

@@ -18,16 +18,17 @@ const About2 = () => {
           >
             <h2 className="text-4xl font-bold text-center lg:text-left text-gray-800 mb-4">El Salón</h2>
             <p className="text-lg text-gray-700 mb-4">
-              En Zafiro Hair and Beauty, nuestra pasión es resaltar la belleza de cada cliente.
-              Con un equipo de estilistas expertos, ofrecemos una amplia gama de servicios,
-              incluyendo mechas balayage, tratamientos de color, y cortes de cabello personalizados.
+              En Zafiro Hair and Beauty, te ofrecemos una experiencia única y relajante en un espacio moderno y acogedor. 
+              Nuestro salón está diseñado con un ambiente cálido y elegante, 
+              pensado para que disfrutes cada momento mientras cuidamos de tu cabello.
             </p>
             <p className="text-lg text-gray-700 mb-4">
-              Nuestro compromiso es proporcionar una experiencia única y relajante,
-              donde cada visita se convierte en un momento de autocuidado y renovación.
+              Nos enfocamos en crear looks personalizados, utilizando técnicas innovadoras que realzan tu estilo y personalidad. 
+              Ya sea que busques un cambio de imagen o un tratamiento de belleza, 
+              en Zafiro te garantizamos una experiencia renovadora que hará que te sientas y te veas espectacular.
             </p>
             <p className="text-lg text-gray-700">
-              Ven y descubre cómo podemos ayudarte a realzar tu belleza natural.
+              Ven y descubre cómo podemos ayudarte.
               ¡Te esperamos en nuestro salón!
             </p>
           </motion.div>
@@ -42,7 +43,7 @@ const About2 = () => {
           >
             <div className="grid grid-cols-2 gap-4">
               {/* Imagen 1 */}
-              <div className="relative w-full h-64 lg:h-80">
+              <div className="relative w-full sm:h-48 lg:h-96">
               <Image
                   src="/images/salon1.png"
                   alt="Salon 1"
@@ -51,7 +52,7 @@ const About2 = () => {
                   className="rounded-lg shadow-lg object-cover w-full h-full" // Asegura que ocupe todo el contenedor
                 />
               </div>
-              <div className="relative w-full lg:h-80 sm:h-48">
+              <div className="relative w-full lg:h-96 sm:h-48">
                 <Image
                   src="/images/salon2.png"
                   alt="Salon 2"
@@ -60,7 +61,7 @@ const About2 = () => {
                   className="rounded-lg shadow-lg object-cover w-full h-full"
                 />
               </div>
-              <div className="relative w-full lg:h-80 sm:h-48">
+              <div className="relative w-full lg:h-96 sm:h-48">
                 <Image
                   src="/images/salon3.png"
                   alt="Salon 3"
@@ -69,7 +70,7 @@ const About2 = () => {
                   className="rounded-lg shadow-lg object-cover w-full h-full"
                 />
               </div>
-              <div className="relative w-full lg:h-80 sm:h-48">
+              <div className="relative w-full lg:h-96 sm:h-48">
                 <Image
                   src="/images/salon4.png"
                   alt="Salon 4"
