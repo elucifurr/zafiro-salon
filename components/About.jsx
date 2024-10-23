@@ -18,15 +18,17 @@ const About = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
         >
-          <div className=" mb-6 lg:mb-0">
-            <Image
-              src="/images/carmen.png" // Ruta de la imagen
-              alt="Zafiro Hair and Beauty"
-              width={500}
-              height={400}
-              className="rounded-lg shadow-lg object-cover mb-6 lg:mb-0"
-            />
-          </div>
+          <div className="mb-6 lg:mb-0">
+              <Image
+                src="/images/carmen.png" // Ruta de la imagen
+                alt="Zafiro Hair and Beauty"
+                width={500}
+                height={400}
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="rounded-lg shadow-lg object-cover"
+                priority
+              />
+            </div>
         </motion.div>
 
         <motion.div 

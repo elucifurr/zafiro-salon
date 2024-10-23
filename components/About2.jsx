@@ -47,8 +47,7 @@ const About2 = () => {
               <Image
                   src="/images/salon1.png"
                   alt="Salon 1"
-                  width={500} // Ancho fijo
-                  height={300} // Alto fijo
+                  fill
                   className="rounded-lg shadow-lg object-cover w-full h-full" // Asegura que ocupe todo el contenedor
                 />
               </div>
@@ -56,8 +55,7 @@ const About2 = () => {
                 <Image
                   src="/images/salon2.png"
                   alt="Salon 2"
-                  width={500}
-                  height={300}
+                  fill
                   className="rounded-lg shadow-lg object-cover w-full h-full"
                 />
               </div>
@@ -65,8 +63,7 @@ const About2 = () => {
                 <Image
                   src="/images/salon3.png"
                   alt="Salon 3"
-                  width={500}
-                  height={300}
+                  fill
                   className="rounded-lg shadow-lg object-cover w-full h-full"
                 />
               </div>
@@ -74,8 +71,7 @@ const About2 = () => {
                 <Image
                   src="/images/salon4.png"
                   alt="Salon 4"
-                  width={500}
-                  height={300}
+                  fill
                   className="rounded-lg shadow-lg object-cover w-full h-full"
                 />
               </div>
