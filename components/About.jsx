@@ -18,7 +18,7 @@ const About = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
         >
-          <div className="mb-6 lg:mb-0">
+          <div className="mb-6 lg:mb-0 lg:mr-20">
               <Image
                 src="/images/carmen.png" // Ruta de la imagen
                 alt="Zafiro Hair and Beauty"

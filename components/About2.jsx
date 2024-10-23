@@ -17,7 +17,7 @@ const About2 = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between">
           {/* Animated text */}
           <motion.div 
-            className="lg:w-2/6 mb-6 lg:mb-0 pr-10"
+            className="lg:w-2/5 mb-6 lg:mb-0 pr-10"
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
@@ -50,13 +50,17 @@ const About2 = () => {
           >
             <div className="flex flex-wrap justify-center gap-6">
               {salon.map((image, index) => (
-                <div key={index} className="flex-shrink-0 w-96 relative h-96 overflow-hidden">
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    fill
-                    className="object-cover rounded-lg shadow-lg"
-                  />
+                <div key={index} className="flex-shrink-0 w-full sm:w-1/2 md:w-2/3 lg:w-2/5 xl:w-2/5 min-w-[200px]"> {/* Adjust min-width as needed */}
+                  <div className="overflow-hidden bg-white rounded-lg shadow-lg">
+                    <div className="relative w-full" style={{ aspectRatio: '4 / 3' }}>
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>
