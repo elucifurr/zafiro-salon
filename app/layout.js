@@ -49,6 +49,7 @@ export default function RootLayout({ children }) {
       <meta property="fb:url" content={metadata.facebook.url} />
       <meta name="instagram:handle" content={metadata.instagram.handle} />
       <meta name="tiktok:username" content={metadata.tiktok.username} />
+      <meta name="google-site-verification" content="1e9_3mimi95zkoNprnIXm2E6L51dcBiwDxv_b3kHN1A" />
       </Head>
       <body>
         <Navbar />
