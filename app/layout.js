@@ -34,20 +34,21 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <Head>
       <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="tags" content={metadata.tags} />
-        <meta property="og:title" content={metadata.openGraph.title} />
-        <meta property="og:description" content={metadata.openGraph.description} />
-        <meta property="og:url" content={metadata.openGraph.url} />
-        <meta property="og:site_name" content={metadata.openGraph.siteName} />
-        <meta property="og:type" content={metadata.openGraph.type} />
-        <meta property="og:locale" content={metadata.openGraph.locale} />
-        <meta property="fb:app_id" content={metadata.facebook.appId} />
-        <meta property="fb:title" content={metadata.facebook.title} />
-        <meta property="fb:description" content={metadata.facebook.description} />
-        <meta property="fb:url" content={metadata.facebook.url} />
-        <meta name="instagram:handle" content={metadata.instagram.handle} />
-        <meta name="tiktok:username" content={metadata.tiktok.username} />
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <meta name="description" content={metadata.description} />
+      <meta name="tags" content={metadata.tags} />
+      <meta property="og:title" content={metadata.openGraph.title} />
+      <meta property="og:description" content={metadata.openGraph.description} />
+      <meta property="og:url" content={metadata.openGraph.url} />
+      <meta property="og:site_name" content={metadata.openGraph.siteName} />
+      <meta property="og:type" content={metadata.openGraph.type} />
+      <meta property="og:locale" content={metadata.openGraph.locale} />
+      <meta property="fb:app_id" content={metadata.facebook.appId} />
+      <meta property="fb:title" content={metadata.facebook.title} />
+      <meta property="fb:description" content={metadata.facebook.description} />
+      <meta property="fb:url" content={metadata.facebook.url} />
+      <meta name="instagram:handle" content={metadata.instagram.handle} />
+      <meta name="tiktok:username" content={metadata.tiktok.username} />
       </Head>
       <body>
         <Navbar />
