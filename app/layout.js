@@ -32,7 +32,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <Head>
+      <head>
         <title>{metadata.title}</title>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="description" content={metadata.description} />
@@ -49,7 +49,8 @@ export default function RootLayout({ children }) {
         <meta property="fb:url" content={metadata.facebook.url} />
         <meta name="instagram:handle" content={metadata.instagram.handle} />
         <meta name="tiktok:username" content={metadata.tiktok.username} />
-      </Head>
+        <meta name="google-site-verification" content="1e9_3mimi95zkoNprnIXm2E6L51dcBiwDxv_b3kHN1A" />
+      </head>
       <body>
         <Navbar />
         {children}
