@@ -21,7 +21,7 @@ const Contact = () => {
             </ul>
 
             <h3 className="text-xl font-semibold mb-4">Información de Contacto</h3>
-            <p>C/ Federico García Lorca 5, 11140 Conil de la Frontera, Cádiz</p>
+            <p>C. Federico García Lorca, 5, Bajo, 11140 Conil de la Frontera, Cádiz</p>
             <p>Teléfono: <Link href="tel:+674343524" className="text-blue-600 hover:underline ml-1">+34 674 34 35 24</Link></p>
 
             {/* Botón de reserva */}
