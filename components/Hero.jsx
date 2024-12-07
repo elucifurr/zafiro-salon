@@ -11,7 +11,7 @@ const Hero = () => {
           Zafiro Hair and Beauty
         </h1>
         <p className="mt-4 text-xl text-gray-600">
-          Salón especializado en Mechas
+          Salón Redken especializado en Mechas Balayage y Babylights, Color, Tratamientos personalizados, Fantasía, Barros y Maquillaje.
         </p>
         <div className="flex justify-center items-center space-x-6 mt-4">
           <a href="https://www.instagram.com/zafirohairandbeauty" className="text-gray-400 hover:text-pink-300 text-2xl">
@@ -31,9 +31,9 @@ const Hero = () => {
       </div>
       <div className="w-full lg:w-1/2 flex justify-center">
         <Image
-          src="/images/balayage.png" // Asegúrate de que la ruta de la imagen sea correcta
+          src="/images/balayage.png"
           alt="Balayage"
-          width={700} // Aumenta el tamaño según sea necesario
+          width={700}
           height={400}
           className="rounded-lg shadow-lg object-cover"
         />

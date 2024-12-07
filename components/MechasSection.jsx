@@ -9,7 +9,7 @@ const MechasSection = () => {
       description: 'Mechas que crean un efecto natural y luminoso, aportando dimensión y movimiento a tu cabello. Perfectas para un look radiante y de bajo mantenimiento.'
     },
     {
-      imageSrc: '/images/babylights2.png',
+      imageSrc: '/images/babylights.png',
       title: 'Babylights',
       description: 'Mechas delicadas que iluminan tu rostro con un toque sutil, ideales para un acabado fresco y juvenil.'
     },

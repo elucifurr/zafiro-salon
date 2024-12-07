@@ -6,7 +6,7 @@ export async function generateMetadata() {
   return {
     title: 'Zafiro Hair and Beauty - Peluquería y Maquillaje',
     description: 'Bienvenido a Zafiro Hair and Beauty, donde transformamos tu look con estilos modernos y elegantes.',
-    keywords: 'Peluquería, Salon de belleza, Salon, Maquillaje, Peinados, Mechas, Balayage, Babylights, Cortes, Corte',
+    keywords: 'Peluquería, Salon de belleza, Salon, Redken, Maquillaje, Peinados, Mechas, Balayage, Babylights, Cortes, Corte',
     openGraph: {
       title: 'Zafiro Hair and Beauty - Peluquería y Maquillaje',
       description: 'Descubre nuestros servicios de peluquería y maquillaje para un look radiante.',
