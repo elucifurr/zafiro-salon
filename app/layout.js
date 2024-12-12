@@ -7,6 +7,7 @@ export async function generateMetadata() {
     title: 'Zafiro Hair and Beauty | Peluquería y Maquillaje en Conil de la Frontera',
     description: 'En Zafiro Hair and Beauty transformamos tu look con cortes de cabello modernos, mechas Balayage y Babylights, tratamientos capilares Redken y maquillaje profesional en Conil, Cádiz.',
     keywords: 'Peluquería en Conil, salón de belleza Cádiz, mechas Balayage, Babylights, tratamientos capilares, corte de cabello personalizado, maquillaje profesional, peluquería para bodas, cortes modernos, estética en Cádiz, peinados para eventos, estilismo Redken, servicios de belleza, corte de cabello mujeres, peinados novias, peluquería Redken',
+    image: 'https://www.zafirohairandbeauty.vercel.app/images/balayage.webp',
     openGraph: {
       title: 'Zafiro Hair and Beauty | Peluquería y Maquillaje en Conil',
       description: 'Descubre los mejores servicios de peluquería y maquillaje en Conil, con un enfoque personalizado para cada cliente. Realizamos mechas Balayage, Babylights y mucho más.',
