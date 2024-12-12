@@ -1,38 +1,36 @@
-// components/Services.jsx
 import CustomService from './CustomService';
 
 const servicesData = [
   {
     title: "Alisados",
     description: "Consigue un cabello liso y sedoso con nuestros alisados a base de Ácido Hialurónico, perfectos para un look elegante y sin frizz.",
-    image: "/images/alisado.png",
+    image: "/images/alisado.webp",
   },
   {
     title: "Barros Botánicos",
     description: "Da color a tu cabello con nuestros barros botánicos, diseñados para aportar brillo y suavidad mientras cuidan tu salud capilar.",
-    image: "/images/barros.png",
+    image: "/images/barros.webp",
   },
   {
     title: "Tratamiento Perla Reparadora - Nutritiva",
     description: "Devuelve la vitalidad a tu cabello con nuestro tratamiento más completo, que nutre o repara tu cabello",
-    image: "/images/perla.png",
+    image: "/images/perla.webp",
   },
   {
     title: "Tratamiento Spa Cuero Cabelludo",
     description: "Disfruta de una experiencia relajante y revitalizante con nuestro tratamiento spa, diseñado para purificar y tratar tu cuero cabelludo.",
-    image: "/images/tratamiento-spa.png",
+    image: "/images/tratamiento-spa.webp",
   },
   {
     title: "Peinados Especiales",
     description: "Destaca en cualquier evento con nuestros peinados especiales, diseñados para realzar tu belleza y personalidad en ocasiones únicas.",
-    image: "/images/peinado.png",
+    image: "/images/peinado.webp",
   },
   {
     title: "Maquillaje",
     description: "Realza tu belleza con nuestro servicio de maquillaje, que combina técnicas profesionales y productos de alta calidad para un acabado impecable.",
-    image: "/images/maquillaje.png",
+    image: "/images/maquillaje.webp",
   },
-  
 ];
 
 const Services = () => {

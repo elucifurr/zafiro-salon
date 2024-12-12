@@ -1,14 +1,13 @@
-'use client'; // Ensure this component renders on the client side
+'use client';
 
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const About2 = () => {
   const salon = [
-    { src: '/images/salon1.png', alt: 'Recepción' },
-    { src: '/images/salon2.png', alt: 'Spa' },
-    { src: '/images/salon3.png', alt: 'Tocador' },
-    { src: '/images/salon4.png', alt: 'Zona de espera' }
+    { src: '/images/salon1.webp', alt: 'Recepción' },
+    { src: '/images/salon2.webp', alt: 'Spa' },
+    { src: '/images/salon3.webp', alt: 'Tocador' },
+    { src: '/images/salon4.webp', alt: 'Zona de espera' }
   ];
 
   return (
@@ -53,11 +52,11 @@ const About2 = () => {
                 <div key={index} className="flex-shrink-0 w-full sm:w-1/2 md:w-2/3 lg:w-2/5 xl:w-2/5 min-w-[200px]"> {/* Adjust min-width as needed */}
                   <div className="overflow-hidden bg-white rounded-lg shadow-lg">
                     <div className="relative w-full" style={{ aspectRatio: '4 / 3' }}>
-                      <Image
+                      <img
                         src={image.src}
                         alt={image.alt}
-                        fill
-                        className="object-cover"
+                        className="object-cover w-full h-full"
+                        loading="lazy"
                       />
                     </div>
                   </div>

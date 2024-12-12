@@ -1,15 +1,12 @@
-// components/MechaCard.js
-import Image from 'next/image';
-
 const MechaCard = ({ imageSrc, title, description }) => {
   return (
-    <div className="overflow-hidden bg-white"> {/* Contenedor sin bordes redondeados */}
-      <div className="relative h-96"> {/* Aumenta la altura según tus necesidades */}
-        <Image
+    <div className="overflow-hidden bg-white rounded-lg shadow-lg">
+      <div className="relative h-96">
+        <img
           src={imageSrc}
-          alt={title}
-          fill
-          className="object-cover rounded-lg shadow-lg" // Bordes redondeados solo en la imagen
+          alt={`Mecha de tipo ${title}`}
+          className="object-cover w-full h-full rounded-lg"
+          loading="lazy" 
         />
       </div>
       <div className="p-4 text-center">

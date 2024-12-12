@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +14,7 @@ const Navbar = () => {
     <nav className="bg-white shadow-md py-4 relative">
       <div className="container mx-auto flex items-center justify-between px-4">
         <Link href="/" className="flex items-center">
-          <Image
+          <img
             src="/images/logo.svg" // Ruta del logo
             alt="Zafiro Logo"
             width={40}

@@ -1,19 +1,18 @@
-// components/CustomService.js
-import Image from 'next/image';
-
 const CustomService = ({ title, description, image }) => {
   return (
-    <div className="flex flex-col items-center mb-4">
-      <div className="relative w-full h-96 mb-2 overflow-hidden shadow-md">
-        <Image
+    <div className="overflow-hidden bg-white rounded-lg shadow-lg">
+      <div className="relative h-96">
+        <img
           src={image}
           alt={title}
-          fill // Esto asegura que la imagen ocupe todo el contenedor
-          className="rounded-lg object-cover" // Mantiene el redondeo en las esquinas
+          className="object-cover w-full h-full rounded-lg"
+          loading="lazy"
         />
       </div>
-      <h3 className="text-xl font-semibold text-gray-600 text-center">{title}</h3>
-      <p className="text-gray-600 text-center">{description}</p>
+      <div className="p-4 text-center">
+        <h3 className="text-xl font-semibold text-gray-800">{title}</h3>
+        <p className="text-gray-600">{description}</p>
+      </div>
     </div>
   );
 };

@@ -4,28 +4,36 @@ import "./globals.css";
 
 export async function generateMetadata() {
   return {
-    title: 'Zafiro Hair and Beauty - Peluquería y Maquillaje',
-    description: 'Bienvenido a Zafiro Hair and Beauty, donde transformamos tu look con estilos modernos y elegantes.',
-    keywords: 'Peluquería, Salon de belleza, Salon, Redken, Maquillaje, Peinados, Mechas, Balayage, Babylights, Cortes, Corte',
+    title: 'Zafiro Hair and Beauty | Peluquería y Maquillaje en Conil de la Frontera',
+    description: 'En Zafiro Hair and Beauty transformamos tu look con cortes de cabello modernos, mechas Balayage y Babylights, tratamientos capilares Redken y maquillaje profesional en Conil, Cádiz.',
+    keywords: 'Peluquería en Conil, salón de belleza Cádiz, mechas Balayage, Babylights, tratamientos capilares, corte de cabello personalizado, maquillaje profesional, peluquería para bodas, cortes modernos, estética en Cádiz, peinados para eventos, estilismo Redken, servicios de belleza, corte de cabello mujeres, peinados novias, peluquería Redken',
     openGraph: {
-      title: 'Zafiro Hair and Beauty - Peluquería y Maquillaje',
-      description: 'Descubre nuestros servicios de peluquería y maquillaje para un look radiante.',
+      title: 'Zafiro Hair and Beauty | Peluquería y Maquillaje en Conil',
+      description: 'Descubre los mejores servicios de peluquería y maquillaje en Conil, con un enfoque personalizado para cada cliente. Realizamos mechas Balayage, Babylights y mucho más.',
       url: 'https://www.zafirohairandbeauty.vercel.app',
       siteName: 'Zafiro Hair and Beauty',
       locale: 'es_ES',
       type: 'website',
+      image: 'https://www.zafirohairandbeauty.vercel.app/images/balayage.webp',
     },
     facebook: {
-      appId: 'YOUR_FACEBOOK_APP_ID',
-      title: 'Zafiro Hair and Beauty - Peluquería y Maquillaje',
-      description: 'Visita nuestro salón y descubre nuestros servicios personalizados.',
+      appId: '166294863747191833264038932764',
+      title: 'Zafiro Hair and Beauty | Peluquería y Maquillaje',
+      description: 'Visita Zafiro Hair and Beauty en Conil para disfrutar de servicios de peluquería y maquillaje personalizados. Transformamos tu look con productos Redken.',
       url: 'https://www.facebook.com/profile.php?id=61566585353275',
+      image: 'https://www.zafirohairandbeauty.vercel.app/images/balayage.webp',
     },
     instagram: {
       handle: '@zafirohairandbeauty',
     },
     tiktok: {
       username: '@zafirohairandbeauty',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Zafiro Hair and Beauty | Peluquería y Maquillaje',
+      description: 'Servicios exclusivos de peluquería y maquillaje en Conil, desde mechas hasta cortes y peinados para novias.',
+      image: 'https://www.zafirohairandbeauty.vercel.app/images/balayage.webp',
     },
   };
 }
@@ -34,14 +42,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Zafiro Hair and Beauty" />
         <meta name="google-site-verification" content="1e9_3mimi95zkoNprnIXm2E6L51dcBiwDxv_b3kHN1A" />
         <script type="application/ld+json">
           {
             `{
               "@context": "https://schema.org",
-              "@type": "Peluquería",
+              "@type": "HairSalon",
               "name": "Zafiro Hair and Beauty",
-              "image": "https://www.zafirohairandbeauty.vercel.app/path/to/image.jpg",
               "telephone": "+34 123 456 789",
               "address": {
                 "@type": "PostalAddress",
@@ -58,7 +67,24 @@ export default function RootLayout({ children }) {
                 "https://www.tiktok.com/@zafirohairandbeauty"
               ],
               "priceRange": "€€",
-              "openingHours": ["Tu-Fr 9:30-14:00", "Tu-Fr 16:00-20:00", "Sa 9:00-14:00"],
+              "openingHoursSpecification": [
+                {
+                  "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+                  "opens": "09:30",
+                  "closes": "14:00"
+                },
+                {
+                  "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+                  "opens": "16:00",
+                  "closes": "20:00"
+                },
+                {
+                  "dayOfWeek": ["Saturday"],
+                  "opens": "09:00",
+                  "closes": "14:00"
+                }
+              ],
+              "image": "https://www.zafirohairandbeauty.vercel.app/images/balayage.webp"
             }`
           }
         </script>
