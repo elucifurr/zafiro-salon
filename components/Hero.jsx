@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <div className="text-center w-full lg:w-1/2 mb-8 lg:mb-0">
         <h1 className="text-6xl font-bold text-gray-800 leading-tight">
-          Zafiro Hair and Beauty | Peluquería y Maquillaje
+          Peluquería Zafiro Hair and Beauty | Conil de la Frontera
         </h1>
         <p className="mt-4 text-xl text-gray-600">
           Salón Redken especializado en Mechas Balayage y Babylights, Color,
