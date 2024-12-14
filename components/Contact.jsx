@@ -19,7 +19,7 @@ const Contact = () => {
               <li>Cerrado</li>
             </ul>
 
-            <h3 className="text-xl font-semibold mb-4">Información de Contacto</h3>
+            <h3 className="text-xl font-semibold mb-4">Contacta con nosotros</h3>
             <p>C. Federico García Lorca, 5, Bajo, 11140 Conil de la Frontera, Cádiz</p>
             <p>Teléfono: 
               <Link 
