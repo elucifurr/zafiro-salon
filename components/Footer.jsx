@@ -19,7 +19,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Enlaces Rápidos</h3>
             <ul className="space-y-2">
-            <li>
+              <li>
                 <a href="/" className="text-gray-400 hover:text-white">
                   Inicio
                 </a>
@@ -48,16 +48,31 @@ const Footer = () => {
           </div>
 
           {/* Contact Section */}
-          <div>
-          <h3 className="text-xl font-semibold mb-4">Información de Contacto</h3>
-            <p>C. Federico García Lorca, 5, Bajo, 11140 Conil de la Frontera, Cádiz</p>
-            <p>Teléfono: 
+          <div className="flex flex-col justify-between h-full">
+            <div>
+              <h3 className="text-xl font-semibold mb-4">Información de Contacto</h3>
+              <p>C. Federico García Lorca, 5, Bajo, 11140 Conil de la Frontera, Cádiz</p>
+              <p>
+                Teléfono:
+                <Link
+                  href="tel:+674343524"
+                  className="hover:underline ml-1"
+                  aria-label="Llamar a +34 674 34 35 24"
+                >
+                  +34 674 34 35 24
+                </Link>
+              </p>
+            </div>
+
+            {/* "Diseñado por RediseñoSEO" Link */}
+            <p className="mt-4">
+              <span>Diseñado por </span>
               <Link
-                href="tel:+674343524" 
-                className=" hover:underline ml-1"
-                aria-label="Llamar a +34 674 34 35 24"
+                href="https://rediseñoseo.com"
+                className="text-indigo-500 hover:text-indigo-400 font-semibold"
+                aria-label="Visitar RediseñoSEO"
               >
-                +34 674 34 35 24
+                RediseñoSEO
               </Link>
             </p>
           </div>
@@ -91,7 +106,7 @@ const Footer = () => {
           </div>
 
           {/* Copyright */}
-          <div className="text-sm text-gray-400">
+          <div className="text-sm text-gray-400 text-center md:text-right">
             &copy; {new Date().getFullYear()} Zafiro Hair and Beauty. Todos los derechos reservados.
           </div>
         </div>
